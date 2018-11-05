@@ -4,7 +4,7 @@ app = Flask(__name__)
 server_date=''
 server_min=''
 
-@app.route('/server/<date>/<min>')
+@app.route('/game/<date>/<min>')
 def server_side(date,min):
    global server_date
    global server_min
