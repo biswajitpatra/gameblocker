@@ -11,7 +11,7 @@ def server_side(date,min):
    if min=='0':
      if server_date==date:
        min=server_min
-       server_min=0
+       server_min='0'
        return "APP "+min
      else:
        return "NO TA"
