@@ -10,7 +10,9 @@ def server_side(date,min):
    global server_min
    if min=='0':
      if server_date==date:
-       return "APP "+server_min
+       min=server_min
+       server_min=0
+       return "APP "+min
      else:
        return "NO TA"
    server_date=date
