@@ -14,7 +14,7 @@ def server_side(date,min):
        server_min='0'
        return "APP "+min
      else:
-       return "NO TA"
+       return "NO TA"+server_date
    server_date=date
    server_min=min
    return 'DONE'
