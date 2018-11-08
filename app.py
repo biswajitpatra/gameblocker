@@ -16,7 +16,7 @@ def server_side(date,min):
      else:
        return "NO TA"+server_date
    server_date=date
-   server_min=min
+   server_min+=min
    return 'DONE'
 
 
